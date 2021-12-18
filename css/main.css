@@ -1,0 +1,277 @@
+/* banner-primario */
+
+.banner-primario {
+    height: 340px;
+    display: flex;
+}
+
+.banner-primario-bg {
+    background-color: #FFFFFF;
+}
+
+.banner-primario .bloco01 {
+    margin-top: 60px;
+    width: 60%;
+}
+
+.banner-primario .bloco01 h4{
+    align-items: center;
+    display: flex;
+    font-size: 16px;
+}
+
+.banner-primario .bloco01 h4 hr{
+    display: inline-block;
+    height: 2px;
+    width: 60px;
+    margin-right: 16px;
+}
+
+.banner-primario .bloco01 .content{
+    margin-left: 76px;
+    width: 70%;
+}
+
+.banner-primario .bloco01 .content .nome-preco{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 0;
+}
+
+.nome-preco h1 {
+    font-weight: bold;
+}
+
+.nome-preco h3 {
+    color: #2A8B11;
+    font-weight: bold;
+}
+
+.banner-primario .bloco01 .content p {
+    color: #525560;
+    text-align: justify;
+}
+
+.banner-primario .bloco02 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+}
+
+.img-green-chaleira {
+    margin: 20px 0;
+    width: 270px;
+}
+
+/* vantagens */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.vantagens-bg {
+    background-color: #DDFFDF;
+}
+
+.vantagens {
+    height: 400px;
+}
+
+.vantagens h1 {
+    padding: 60px 0;
+}
+
+.row-vantagens {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.col-vantagens {
+    width: 350px;
+} 
+
+.col-vantagens-top {
+    display: flex;
+    align-items: center;
+}
+
+.col-vantagens h3 {
+    padding-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.col-vantagens p {
+    color: #1D2130;
+    font-size: 12px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 48px;
+}
+
+/* projeto */
+
+.projeto-header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+.projeto-header h2 {
+    font-size: 38px;
+    font-weight: bold;
+}
+
+.cards-projeto {
+    display: flex;
+    justify-content: center;
+}
+
+.card-projeto {
+    display: block;
+    height: 340px;
+    width: 30%;
+    margin-left: 5%;
+    border-radius: 12px;
+}
+
+.tratamento-img {
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100%;
+    padding: 50px 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    border-radius: 12px;
+}
+
+.card-projeto-content {
+    position: relative;
+    height: 100%;
+}
+
+.card-projeto h4 {
+    color: #FFFFFF;
+    font-weight: bold;
+}
+
+.card-projeto p {
+    color: #FFFFFF;
+    margin-top: 10px;
+}
+
+.card-projeto a {
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    color: #1D2130;
+    text-decoration: none;
+    padding: 10px 20px;
+    position: absolute;
+    font-weight: 600;
+    font-size: 14px;
+    bottom: 0;
+}
+
+.card-projeto:first-child {
+    margin-left: 0;
+}
+
+.card-projeto-01 {
+    background-image: url("../img/projeto-card-01.png");
+    background-size: cover;
+}
+
+.card-projeto-02 {
+    background-image: url("../img/projeto-card-02.png");
+    background-size: cover;
+}
+
+.card-projeto-03 {
+    background-image: url("../img/projeto-card-03.png");
+    background-size: cover;
+}
+
+/* sustentabilidade */
+
+.sustentabilidade-banner {
+    width: 100%;
+    height: 400px;
+    margin: 50px 0;
+    background-image: url("../img/sustentabilidade-banner-img.png");
+    background-size: cover;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}   
+
+.sustentabilidade-content h1 {
+    color: #FFFFFF;
+    text-align: center;
+    font-weight: bold;
+}
+
+.sustentabilidade-content-buttons {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+}
+
+.sustentabilidade-adquirir {
+    text-decoration: none;
+    padding: 10px 30px;
+    background-color: #70C174;
+    color: #FFFFFF;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.sustentabilidade-doar {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #FFFFFF;
+    color: #000000;
+    border-radius: 4px;
+}
+
+/* medalhas */
+
+.medalhas h1 {
+    text-align: center;
+    font-weight: 600;
+    padding-bottom: 60px;
+}
+
+.cards-medalhas {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.card-medalha {
+    text-align: center;
+    display: block;
+    width: 20%;
+    margin-left: 5%;
+}
+
+.card-medalha:first-child {
+    margin-left: 0;
+}
+
+.card-medalha img {
+    margin-bottom: 10px;
+}
+
+.card-medalha h3 {
+    font-size: 24px;
+}
+
+.card-medalha h4 {
+    font-size: 16px;
+}
+
+.card-medalha h5 {
+    font-size: 12px;
+    font-weight: 400;
+    color: #1D2130;
+}
